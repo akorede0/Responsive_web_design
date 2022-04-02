@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+}
+body{
+    background-color: palevioletred;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-banner{
+    background-color: teal;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    padding: 15px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.image img {width: 50px; height: auto; border-radius: 10px;}
+
+h2{
+    font-weight: 500;
+    font-size: 2em;
+    margin-top: 50px;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+    .item-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .item{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .item{
+        width: 30%;
+    }
+}
